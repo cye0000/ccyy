@@ -6,7 +6,7 @@ import allure,pytest
 class TestAllure:
     @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
     @allure.step(title="测试步骤-登录")
-    def test_login01(self):
+    def test_login(self):
         allure.attach('输入名字','输入用户名的描述')
         print('输入名字')
         allure.attach('输入密码', '输入密码的描述')
