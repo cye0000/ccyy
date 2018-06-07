@@ -6,7 +6,7 @@ from appium import webdriver
 
 class TestSetting:
 
-    def testset(self):
+    def test_set(self):
 
         desired_caps = {}
 
