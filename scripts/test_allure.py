@@ -15,17 +15,17 @@ class TestAllure:
         print('点击登录')
         assert 1
 
-    # @allure.step(title="测试步骤-登录")
-    # def test_login01(self):
-    #     print ('111111')
-    #     assert 1
+    @allure.step(title="测试步骤-登录")
+    def test_login01(self):
+        print ('111111')
+        assert 1
 
-    # @allure.step(title="测试步骤-用户名")
-    # def test_username(self):
-    #     print ('222222')
-    #     assert 1
-    #
-    # @allure.step(title="测试步骤-密码")
-    # def test_password(self):
-    #     print ('333333')
-    #     assert 0
+    @allure.step(title="测试步骤-用户名")
+    def test_username(self):
+        print ('222222')
+        assert 1
+
+    @allure.step(title="测试步骤-密码")
+    def test_password(self):
+        print ('333333')
+        assert 0
